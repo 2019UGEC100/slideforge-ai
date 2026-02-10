@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# SlideForge AI - Git Ignore
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+ENV/
+env/
+.Python
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backend - Generated files
+backend/uploads/*
+backend/outputs/*
+backend/error.log
+!backend/uploads/.gitkeep
+!backend/outputs/.gitkeep
+
+# Frontend build
+frontend/build/
+
+# Logs
+*.log
+
+# Test files (remove before commit)
+sample_*.txt
+sample_*.pdf
+*.pptx
+
+# Submission documents (keep separate from code)
+TECHNICAL_APPROACH.md
+TECHNICAL_APPROACH.pdf
+*.mp4
